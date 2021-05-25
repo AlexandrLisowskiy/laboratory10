@@ -1,0 +1,35 @@
+body {
+    background: rgb(255, 156, 138);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.line1, .line2 {
+    display: flex;
+    height: 100px;
+}
+.line2 {
+    margin: 50px 0px;
+}
+
+.button {
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+    margin: 25px 25px;
+    border-radius: 5px;
+}
+
+.button a {
+    height: 100%;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
